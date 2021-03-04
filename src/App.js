@@ -1,9 +1,14 @@
 import './App.css';
+import Feed from './Feed';
+import SideBar from './SideBar';
+import Widgets from './Widgets';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <SideBar/>
+      <Feed/>
+      <Widgets />
     </div>
   );
 }
